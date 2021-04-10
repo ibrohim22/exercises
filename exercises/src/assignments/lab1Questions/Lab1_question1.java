@@ -11,7 +11,11 @@ public class Lab1_question1 {
 		 * stringTimes("Hi", 2); = > HiHi stringTimes("Hi", 3); = > HiHiHi
 		 * stringTimes("Hi", 1); = > Hi
 		 */
-		stringTimes("Hello", 3);
+		stringTimes("Hi", 2);
+		System.out.println();
+		stringTimes("Hi", 3);
+		System.out.println();
+		stringTimes("Hi", 1);
 
 	}
 	
