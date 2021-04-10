@@ -18,6 +18,7 @@ public class Question10 {
 		am="AM"; pm="PM";
 		System.out.println(hour+":"+minute+":"+second+" "+pm);
 
+
 	}
 
 }
