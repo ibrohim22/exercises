@@ -18,7 +18,7 @@ public class Question_3 {
 		
 		
 		
-		System.out.println("The are of a given rectangle is "+ area);
+		System.out.println("The area of a given rectangle is "+ area);
 		
 	}
 
