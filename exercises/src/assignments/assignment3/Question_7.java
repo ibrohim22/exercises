@@ -14,7 +14,7 @@ public class Question_7 {
 		 * Price in cents : 95
 		 * Your change is 0 quarters, 0 dimes, and 1 nickles
 		 */
-
+ 
 		int itemPrice=95;
 		int changeQuarters=(100-itemPrice)/25;
 		int changeDimes=(100-itemPrice)%25/10;
