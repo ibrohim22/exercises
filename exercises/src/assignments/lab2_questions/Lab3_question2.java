@@ -2,7 +2,7 @@ package assignments.lab2_questions;
 
 import java.util.Scanner;
 
-public class Lab2_question2 {
+public class Lab3_question2 {
 
 	public static void main(String[] args) {
 
@@ -26,6 +26,7 @@ public class Lab2_question2 {
 		System.out.println("Number of total calories consumed: "+ caloriesConsumed);
 		
 		
+		scan.close();
 		
 		
 		
