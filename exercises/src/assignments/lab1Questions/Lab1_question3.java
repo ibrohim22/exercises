@@ -14,17 +14,23 @@ public class Lab1_question3 {
 		 * specialEleven(24) → false
 		 */
 		
-		specialEleven(22);
+		specialEleven(1);
 		specialEleven(23);
 		specialEleven(24);
 		
 
 	}
 	
-	public static void specialEleven(int num1) {
+	public static void specialEleven(int number) {
 		
-		boolean special= (num1%11==0 || num1%11==1 );
+		
+		if (number == 0 || number == 1) {
+			System.out.println(false);
+		} else {
+		
+		boolean special= (number%11==0 || number%11==1 );
 		System.out.println(special);
+		}
 		
 	}
 
